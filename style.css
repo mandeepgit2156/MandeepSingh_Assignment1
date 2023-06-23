@@ -1,0 +1,153 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-image: url(bg3.jpg);
+}
+
+h3, h4, h5, h6 {
+    font-family: "Trirong", serif;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;    
+}
+
+h1 {
+    text-align: center;
+    background-image: URL(HBG1.JPG)
+}
+
+h2 {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #700759a5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #9c3636;
+}
+
+/* Page wrapper */
+.page-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Intro section */
+.intro {
+    margin-bottom: 30px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.intro h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Summary section */
+.summary {
+    margin-bottom: 20px;
+}
+
+/* Preamble section */
+.preamble {
+    margin-bottom: 30px;
+}
+
+/* Main section */
+
+.supporting {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.explanation, .participation, .benefits, .requirements {
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    flex: 1;
+        display: flex;
+        justify-content: space-between;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer a {
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #9c3636;
+}
+
+/* Design selection */
+.design-selection ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.design-selection .design-name {
+    font-weight: bold;
+}
+
+.design-selection .designer-name {
+    font-style: italic;
+}
+
+/* Design archives */
+.design-archives ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.design-archives .next {
+    margin-bottom: 10px;
+}
+
+.design-archives .viewall a {
+    font-weight: bold;
+}
+
+/* Zen resources */
+.zen-resources ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.zen-resources li {
+    margin-bottom: 10px;
+}
+
+.zen-resources li a {
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.zen-resources li a:hover {
+    transform: translateX(10px);
+}
